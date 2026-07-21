@@ -60,6 +60,14 @@ The project features a sleek frontend built with **Streamlit**, allowing non-tec
 3. **Column Alignment:** The app converts this dictionary into a Pandas DataFrame. It then loops through the loaded `expected_columns` to ensure every required feature is present. If a dummy column is missing from the user's input, the app safely fills it with `0`[cite: 2].
 4. **Scaling & Prediction:** The perfectly aligned DataFrame is passed through the pre-fitted `scaler`, and the scaled array is fed into the KNN model for inference[cite: 2]. 
 5. **Output:** The app conditionally triggers a red error UI stating `"⚠ High Risk of Heart Disease"` if the model predicts a `1`, or a green success UI stating `"✅ Low Risk of Heart Disease"` if the model predicts a `0`[cite: 2].
+<img width="1920" height="916" alt="Screenshot 2026-07-22 004525" src="https://github.com/user-attachments/assets/5f5e9873-ffbc-4f9f-ab17-7dae5bd5b6aa" />
+
+
+<img width="1920" height="913" alt="Screenshot 2026-07-22 004548" src="https://github.com/user-attachments/assets/de66bbae-4c92-4a85-902b-c435caf3b830" />
+
+
+<img width="1920" height="902" alt="Screenshot 2026-07-22 004742" src="https://github.com/user-attachments/assets/e413a7ed-a69f-4b48-89b0-dfb4e0408547" />
+
 
 ## 🚀 Installation & Local Setup Guide
 
